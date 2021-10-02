@@ -12,7 +12,7 @@ function sendAjaxForm(url) {
     $("#alert").removeClass("hidden");
     var elements = document.getElementById("ajax_form").elements;
     var obj ={};
-    for(var i = 0 ; i < 3 ; i++){
+    for(var i = 0 ; i < 4 ; i++){
         var item = elements.item(i);
         obj[item.name] = item.value;
     }
